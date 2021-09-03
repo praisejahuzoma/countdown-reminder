@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+@import url('https://fonts.googleapis.com/css?family=Graduate');
+
+body{
+    text-align: center;
+    background: darkgray;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+h1{
+  color: white;
+  font-weight: 10;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 250px;
+}
+ #clockdiv{
+    font-family: sans-serif;
+    color: rgb(104, 102, 102);
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgb(223, 219, 219);
+    font-family: 'Graduate', cursive;
+    display: inline-block;
+    width: 100px;
+    
+}
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    display: inline-block;
+}
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.copyRight{
+  text-align: center;
+  font-size: 12px;
+  margin-top: 240px;
+  color: rgb(74, 74, 74);
+
+}
+
+@media screen and (max-width:767px){
+  .second-div{
+    margin-top: 8px;
+  }
+  .copyRight{
+    margin-top: -1px;
+    margin-top: 170px;
+  }
+  h1{
+   margin-top: -1px;
+   margin-top: 170px;
+
+  }
+}
